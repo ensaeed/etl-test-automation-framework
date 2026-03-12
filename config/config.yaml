@@ -1,0 +1,16 @@
+{
+  "paths": {
+    "input_file": "data/sample_input.csv"
+  },
+
+  "schema":{
+             "required_columns": [
+    "customer_id",
+    "first_name",
+    "last_name",
+    "zipcode",
+    "created_at"
+        ]
+     }
+}
+
