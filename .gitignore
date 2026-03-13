@@ -3,3 +3,5 @@
 __pycache__/
 *.pyc
 data/
+!data/sample_input.csv
+!data/expected_output.csv
