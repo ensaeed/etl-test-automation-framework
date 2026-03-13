@@ -2,3 +2,4 @@ pytest
 pyyaml
 pandas
 python-dotenv
+pytest-html
