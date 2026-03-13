@@ -2,6 +2,6 @@
 .idea/
 __pycache__/
 *.pyc
-data/
+data/*
 !data/sample_input.csv
 !data/expected_output.csv
