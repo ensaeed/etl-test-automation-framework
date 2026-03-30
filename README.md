@@ -80,3 +80,6 @@ To demonstrate best practices for **automated data pipeline testing**, including
 * transformation testing
 * dataset reconciliation
 * end-to-end pipeline verification
+
+* ## Example Data
+Sample input and expected output datasets are provided in the `data/` folder.
