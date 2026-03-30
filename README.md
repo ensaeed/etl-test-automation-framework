@@ -93,6 +93,15 @@ Sample input and expected output datasets are provided in the `data/` folder.
 2. Run the test suite:
    pytest
 
+ ## Example Usage
+
+Sample input and expected output datasets are available in the `data/` folder.
+
+To run the ETL tests:
+
+pip install -r requirements.txt
+pytest
+
 ## Project Structure
 
 etl-test-automation-framework/
@@ -109,3 +118,11 @@ etl-test-automation-framework/
 ## Continuous Integration
 
 The project uses GitHub Actions to automatically run the ETL test suite when changes are pushed to the repository.
+
+## Citation
+
+If you use this software, please cite:
+
+Saeed, E. (2026). Automating ETL Pipeline Testing Using Pytest and Continuous Integration. Journal of Open Source Software.
+
+
