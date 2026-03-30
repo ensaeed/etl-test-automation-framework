@@ -83,3 +83,29 @@ To demonstrate best practices for **automated data pipeline testing**, including
 
 * ## Example Data
 Sample input and expected output datasets are provided in the `data/` folder.
+
+
+## How to Run the ETL Tests
+
+1. Install dependencies:
+   pip install -r requirements.txt
+
+2. Run the test suite:
+   pytest
+
+## Project Structure
+
+etl-test-automation-framework/
+│
+├── etl/                  # ETL transformation logic
+├── validators/           # Schema and data validation
+├── tests/                # Automated test suite
+├── data/                 # Sample input and expected output datasets
+├── config/               # Configuration files
+├── paper/                # JOSS paper
+├── requirements.txt
+├── README.md
+
+## Continuous Integration
+
+The project uses GitHub Actions to automatically run the ETL test suite when changes are pushed to the repository.
