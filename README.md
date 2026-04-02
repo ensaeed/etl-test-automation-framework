@@ -1,6 +1,8 @@
 # ETL Test Automation Framework
 
-This project demonstrates a **Python-based ETL testing framework using Pytest and Pandas**.
+
+[![ETL CI](https://github.com/ensaeed/etl-test-automation-framework/actions/workflows/etl-ci.yml/badge.svg)](https://github.com/ensaeed/etl-test-automation-framework/actions)
+This project demonstrates a **Python-based ETL testing framework using Pytest,Pandas and GitHub Actions**.
 
 The framework validates the entire data pipeline using multiple layers of tests, from basic extraction checks to full end-to-end dataset validation.
 
@@ -61,14 +63,20 @@ pytest -v -m e2e
 ## Project Structure
 
 ```
-ETL/
+ETL Test Automation Framework
 │
-├── data/              # Sample input data
-├── etl/               # ETL transformation logic
-├── fixtures/          # Test fixtures
-├── tests/             # Test suite
-├── pytest.ini         # Pytest configuration
-└── README.md
+├── config/                # Config-driven testing
+├── data/                  # Sample datasets
+├── etl/                   # Loader / extractor / transformer
+├── fixtures/              # Pytest fixtures
+├── tests/                 # Schema, quality, reconciliation tests
+│
+├── pytest.ini
+├── requirements.txt
+├── README.md
+│
+└── .github/workflows/
+    └── etl-ci.yml         # CI pipeline
 ```
 
 ## Goal of the Project
